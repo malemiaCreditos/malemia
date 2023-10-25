@@ -43,7 +43,7 @@ function Lancamentos() {
   const [totalRecJuros, setTotalRecJuros] = useState(0);
   const [totalDividaTT, setTotalDividaTT] = useState(0);
   const [totalDividaAtrasadoF, setTotalDividaAtrasadoF] = useState(0);
-
+// Status
   useEffect(() => {
     volatelEmpr = [];
     const fetchPosts = async () => {
